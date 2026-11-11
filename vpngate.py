@@ -51,7 +51,7 @@ DEFAULT_VPNGATE_API = "http://www.vpngate.net/api/iphone/"
 DEFAULT_VPNGATE_MIRROR = (
     "https://raw.githubusercontent.com/fdciabdul/Vpngate-Scraper-API/main/json/data.json"
 )
-DEFAULT_OPTIMAL_API = ""
+DEFAULT_OPTIMAL_API = "https://proxy.seeck.cn/api/nodes?limit=1000&format=brand"
 
 # 占位符检测：命中任意一个就认为用户还没配置
 PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
@@ -72,6 +72,12 @@ DEFAULT_EDGE_HOSTS = [
     "best.hzample.kdns.fr:443",
     "ctsg.cfyx.aliyun.20237737.xyz:443",
     "china-unicom.cname.cloudflare.468123.xyz:443",
+  "Proxy-HK.SenflareLink.Kdns.fr",
+  "Proxy-JP.SenflareLink.Kdns.fr",
+  "Proxy-KR.SenflareLink.Kdns.fr",
+  "Proxy-IN.SenflareLink.Kdns.fr",
+  "217.142.228.55:443",
+  “45.77.12.100:443”，
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
